@@ -19,7 +19,7 @@ export default function Magic() {
 
         const lastByte = bit.length - 1
         if (bit[lastByte] !== "0" && bit[lastByte] !== "1") {
-            alert('digite apenas 1 ou 0');
+            alert('type only 1 or 0');
             return
         }
 
@@ -30,7 +30,7 @@ export default function Magic() {
 
     const BinarieToDecimal = () => {
         if (binarie === '') {
-            alert('Digite binarios antes de calcular')
+            alert('Type binaries before ask for the result')
             return
         }
         let result = 0;
@@ -59,13 +59,13 @@ export default function Magic() {
                 className="flex flex-col text-center justify-stretch"
             />
             {/* <p>Voce esta digitando: {binarie}</p> */}
-            {inputClear === 0 ? null : <p className="justify-stretch">resultado: {inputClear}</p>}
+            {inputClear === 0 ? null : <p className="justify-stretch">result: {inputClear}</p>}
             <button 
             type="button" 
             onClick={() => BinarieToDecimal()}
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             >
-                Calcular
+                Calculate
             </button>
         </div>
     )
