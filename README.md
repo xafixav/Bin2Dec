@@ -1,7 +1,8 @@
 ## About the project:
 
-This is a challenge from:
-https://github.com/florinpop17/app-ideas/tree/master/
+- [This is a challenge from florinpop17/app-ideas](https://github.com/florinpop17/app-ideas/tree/master/)
+
+
 
 # Bin2Dec
 
