@@ -6,7 +6,7 @@
 
 # Bin2Dec
 
-- [Link to the project in vercel](https://bin2-dec-4jbp.vercel.app/)
+- [Link to the project in vercel](https://bin-2-dec-xafi.vercel.app/)
 
 
 **Tier:** 1-Beginner
